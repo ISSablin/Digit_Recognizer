@@ -30,10 +30,13 @@ Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pix
 
 ### Results on testing set (scored by Kaggle)  :bar_chart:
 
-* RF -> RF+KNN  -   **0.95685**
-* RF -> SVM         -   **0.97242**
-* SVM                   -   **0.97357**
-* RF -> KNN         -   **0.97328**
+* RF -> RF+KNN              -   **0.97528**
+* RF+RF -> RF+KNN       -   **0.97500**
+* RF -> SVM                     -   **0.97242**
+* RF -> RF+SVM              -   **0.97200**
+* SVM                               -   **0.97357**
+* RF+SVM                        -   **0.97285**
+* RF -> KNN                     -   **0.97328**
 
 ### Ideas for Future Research  :rocket:
 
